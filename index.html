@@ -6,17 +6,23 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- Main Video -->
-    <div id="tubber-viewer" class="embed-responsive embed-responsive-16by9"></div>
-    <!-- Thumbnails -->
-    <div class="items-container">
-      <div id="tubber-container"></div>
+    <div class="tubber-area">
+      <!-- Loading Message -->
+      <div id="tubber-loader">
+        <div class="alert alert-secondary" role="alert">
+          Podcasts Loading...
+        </div>
+      </div>
+      <!-- Main Video -->
+      <div id="tubber-viewer" class="embed-responsive embed-responsive-16by9"></div>
+      <!-- Thumbnails -->
+      <div class="items-container">
+        <div id="tubber-container"></div>
+      </div>
     </div>
-    <!-- Loading Message -->
-    <div id="tubber-loader">Loading</div>
     <!-- Pagers -->
-    <button class="btn btn-default float-left m-2" id="tubber-prev"><i class="fal fa-caret-circle-left"></i> Previous</button>
-    <button class="btn btn-default float-right m-2" id="tubber-next">Next <i class="fal fa-caret-circle-right"></i></button>
+    <button class="btn btn-lg btn-secondary float-left m-2" id="tubber-prev"><i class="fal fa-caret-circle-left"></i> Previous</button>
+    <button class="btn btn-lg btn-secondary float-right m-2" id="tubber-next">Next <i class="fal fa-caret-circle-right"></i></button>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="lib/tubber/jquery.tubber.min.js"></script>
