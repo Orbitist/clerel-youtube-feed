@@ -11,3 +11,7 @@
 .video-item img {
   width: 100%;
 }
+
+.btn-default {
+  background-color: #eee;
+}
