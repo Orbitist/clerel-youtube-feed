@@ -1,20 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <link rel="stylesheet" type="text/css" src="css/style.css"/>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="lib/tubber/jquery.tubber.min.js"></script>
-    <script src="lib/fitvids/jquery.fitvids.js"></script>
+    <script defer src="https://pro.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-d84LGg2pm9KhR4mCAs3N29GQ4OYNy+K+FBHX8WhimHpPm86c839++MDABegrZ3gn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-rTQdcTFdT69CgbBErourkScWQ6j5WQ4aAoCF0UyPhog3PNysM/xz/kqshWKP4NLA" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Test</h1>
-    <div class="container">
-      <div id="tubber-viewer"></div>
+    <!-- Main Video -->
+    <div id="tubber-viewer" class="embed-responsive embed-responsive-16by9"></div>
+    <!-- Thumbnails -->
+    <div class="items-container">
       <div id="tubber-container"></div>
-      <div id="tubber-loader">Loading</div>
-      <div id="tubber-prev">Prev</div>
-      <div id="tubber-next">Next</div>
     </div>
+    <!-- Loading Message -->
+    <div id="tubber-loader">Loading</div>
+    <!-- Pagers -->
+    <button class="btn btn-default" id="tubber-prev"><i class="fal fa-caret-circle-left"></i> Previous</button>
+    <button class="btn btn-default" id="tubber-next">Next <i class="fal fa-caret-circle-right"></i></button>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="lib/tubber/jquery.tubber.min.js"></script>
     <script src="js/config.js"></script>
   </body>
 </html>

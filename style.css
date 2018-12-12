@@ -1,0 +1,13 @@
+#tubber-viewer, #tubber-viewer iframe {
+  width: 100%;
+}
+
+.video-item {
+  float: left;
+  width: 33.3333%;
+  cursor: pointer;
+}
+
+.video-item img {
+  width: 100%;
+}

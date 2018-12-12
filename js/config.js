@@ -11,7 +11,3 @@ $('#tubber-container').tubber({
 		thumbnail: '<img src="{{image_medium}}">'
 	}
 });
-
-$(document).ready(function(){
-  $(".container").fitVids();
-});
