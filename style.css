@@ -3,7 +3,7 @@
 }
 
 .video-item {
-  float: left;
+  display: inline-block;
   width: 33%;
   cursor: pointer;
   padding: 4px 2px;
@@ -13,6 +13,6 @@
   width: 100%;
 }
 
-.row {
+.full-row {
   width: 100%;
 }
