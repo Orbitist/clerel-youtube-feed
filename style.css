@@ -4,11 +4,15 @@
 
 .video-item {
   float: left;
-  width: 33.3333%;
+  width: 33%;
   cursor: pointer;
   padding: 4px 2px;
 }
 
 .video-item img {
+  width: 100%;
+}
+
+.row {
   width: 100%;
 }
